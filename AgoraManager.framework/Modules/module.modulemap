@@ -1,0 +1,4 @@
+framework module AgoraManager {
+  header "AgoraManager-Swift.h"
+  requires objc
+}
