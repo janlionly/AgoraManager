@@ -237,6 +237,7 @@ SWIFT_CLASS("_TtC12AgoraManager12AgoraManager")
 - (void)rtcEngine:(AgoraRtcEngineKit * _Nonnull)engine didRejoinChannel:(NSString * _Nonnull)channel withUid:(NSUInteger)uid elapsed:(NSInteger)elapsed;
 - (void)rtcEngineRequestToken:(AgoraRtcEngineKit * _Nonnull)engine;
 - (void)rtcEngineTranscodingUpdated:(AgoraRtcEngineKit * _Nonnull)engine;
+- (void)rtcEngineLocalAudioMixingDidFinish:(AgoraRtcEngineKit * _Nonnull)engine;
 @end
 
 #if __has_attribute(external_source_symbol)
@@ -482,6 +483,7 @@ SWIFT_CLASS("_TtC12AgoraManager12AgoraManager")
 - (void)rtcEngine:(AgoraRtcEngineKit * _Nonnull)engine didRejoinChannel:(NSString * _Nonnull)channel withUid:(NSUInteger)uid elapsed:(NSInteger)elapsed;
 - (void)rtcEngineRequestToken:(AgoraRtcEngineKit * _Nonnull)engine;
 - (void)rtcEngineTranscodingUpdated:(AgoraRtcEngineKit * _Nonnull)engine;
+- (void)rtcEngineLocalAudioMixingDidFinish:(AgoraRtcEngineKit * _Nonnull)engine;
 @end
 
 #if __has_attribute(external_source_symbol)
