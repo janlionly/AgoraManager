@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AgoraManager'
-  s.version          = '1.1.1'
+  s.version          = '1.1.2'
   s.summary          = 'AgoraManager is a high level APIs based on AgoraRtcEngine.'
   
   s.social_media_url = 'https://twitter.com/janlionly'
