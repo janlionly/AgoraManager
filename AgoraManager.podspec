@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AgoraManager'
-  s.version          = '1.1.3'
+  s.version          = '1.1.4'
   s.summary          = 'AgoraManager is a high level APIs based on AgoraRtcEngine.'
   
   s.social_media_url = 'https://twitter.com/janlionly'
@@ -15,7 +15,6 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = '*.framework'
   s.frameworks = 'Foundation'
 
-  s.swift_versions = ['4.2', '5.0', '5.1']
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.2' }
   s.dependency 'AgoraRtcEngine_iOS', '2.9.3'
 end
